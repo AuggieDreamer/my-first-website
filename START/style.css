@@ -1,21 +1,26 @@
 /* DEV.140 · Week 3 · Lecture 5 · START: your stylesheet. Follow along, one rule at a time. */
+* {
+  box-sizing: border-box;
+}
 
-/* TODO slide 7: give your h1 a color
+ body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: azure;
+  color: black;
+  margin: 0;
+}
+
+h1, h2, h3 {
+font-family: 'Courier New', Courier, monospace;
+}
+
 h1 {
-  color: navy;
+  color:#000066;
+  margin: 0;
 }
-*/
 
-/* TODO slide 14: a TYPE selector
-p { font-size: 18px; }
-*/
-
-/* TODO slide 14: a CLASS selector (the dot means class)
-.note { color: #c8102e; }
-*/
-
-/* TODO slide 14: an ID selector (the # means ID)
-#hero {
-  background-color: #e6f4f3;
+main {
+  padding: 0 24px;
 }
-*/
